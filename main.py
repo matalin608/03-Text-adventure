@@ -14,7 +14,9 @@ def render():
 
 def check_input():
     ''' request input from the player '''
-    return True
+    user_input = input("What would you like to do?") #first question/ interaction
+    # do we want to validate?
+    return user_input
 
 def update():
     '''check if we need to move to a new location, etc ''' 
@@ -32,6 +34,7 @@ def main():
 quit = False
 while not quit:
     #render the world
+    user_input = check_input()
     #check for player input
     #update the state of the world
 
