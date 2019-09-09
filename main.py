@@ -8,7 +8,7 @@ assert sys.version_info >= version, "This script requires at least Python {0}.{1
 logging.basicConfig(format='[%(filename)s:%(lineno)d] %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-def render():
+def render(world,current_location):
     ''' print out a description of the current location '''
     return True
 
