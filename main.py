@@ -8,7 +8,17 @@ assert sys.version_info >= version, "This script requires at least Python {0}.{1
 logging.basicConfig(format='[%(filename)s:%(lineno)d] %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+def render():
+    ''' print out a description of the current location '''
+    return True
 
+def check_input():
+    ''' request input from the player '''
+    return True
+
+def update():
+    '''check if we need to move to a new location, etc ''' 
+    return True
 
 
 def main():
@@ -19,6 +29,11 @@ def main():
 
     current = 'WHOUS'
 
+quit = False
+while not quit:
+    #render the world
+    #check for player input
+    #update the state of the world
 
     return True
 
