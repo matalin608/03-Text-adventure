@@ -43,7 +43,7 @@
     ],
     "rooms": {
       "START": {
-        "name": "Starting place",
+        "name": "First Room",
         "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You decide to choose a door!",
         "exits": [
           {
