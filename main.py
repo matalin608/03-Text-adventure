@@ -34,15 +34,14 @@ def main():
 
     current = 'WHOUS'
 
-quit = False
-while not quit:
+    quit = False
+    while not quit:
     #render the world
-    render(game["rooms"],current)
-    user_input = check_input()
+        render(game["rooms"],current)
+        user_input = check_input()
     #check for player input
     #update the state of the world
 
-    return True
 
 
 
