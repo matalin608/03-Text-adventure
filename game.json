@@ -44,7 +44,7 @@
     "rooms": {
       "START": {
         "name": "Starting place",
-        "desc": "This is the place to start!",
+        "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You decide to choose a door!",
         "exits": [
           {
             "verb": "NORTH",
@@ -53,17 +53,17 @@
           },
           {
             "verb": "SOUTH",
-            "target": "LOC32",
+            "target": "LOC3",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "LOC4",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "LOC5",
             "condition": ""
           }
         ],
