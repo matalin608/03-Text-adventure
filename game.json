@@ -82,6 +82,13 @@
         "exits": [
         ],
         "inventory": []
+      },
+      "LOC4": {
+        "name": "Location 4",
+        "desc": "Here is the second location.",
+        "exits": [
+        ],
+        "inventory": []
       }
     }
   }
