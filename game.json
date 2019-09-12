@@ -44,7 +44,7 @@
     "rooms": {
       "START": {
         "name": "First Room",
-        "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You must choose a door!",
+        "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You must choose a door! (Enter a direction).",
         "exits": [
           {
             "verb": "NORTH",
@@ -55,24 +55,19 @@
             "verb": "SOUTH",
             "target": "LOC3",
             "condition": ""
-          },
-          {
-            "verb": "WEST",
-            "target": "LOC4",
-            "condition": ""
-          },
-          {
-            "verb": "EAST",
-            "target": "LOC5",
-            "condition": ""
           }
         ],
         "inventory": []
       },
       "LOC2": {
         "name": "Kitchen",
-        "desc": "Here is the second location.",
+        "desc": "There is one exit. You see that there is a letter on the counter. You may READ the letter or EXIT the room.",
         "exits": [
+
+         { "verb": "READ",
+          "target": "LOC4",
+          "condition": "" 
+         }
         ],
         "inventory": []
       }
