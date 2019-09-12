@@ -44,7 +44,7 @@
     "rooms": {
       "START": {
         "name": "First Room",
-        "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You decide to choose a door!",
+        "desc": "You wake up in an unfamilar room. The walls are dark. There is one window and two doors. One door is North. One door is South. You must choose a door!",
         "exits": [
           {
             "verb": "NORTH",
@@ -70,7 +70,7 @@
         "inventory": []
       },
       "LOC2": {
-        "name": "Location 2",
+        "name": "Kitchen",
         "desc": "Here is the second location.",
         "exits": [
         ],
