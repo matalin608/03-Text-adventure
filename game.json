@@ -70,6 +70,18 @@
          }
         ],
         "inventory": []
+      },
+      "LOC3": {
+        "name": "Kitchen",
+        "desc": "You pick up the letter. The letter says: 'There is one map of this property. It is inside the safe. There is a key inside the house. Do not let anyone see the map. You are not alone.' You may EXIT the room to begin searching.",
+        "exits": [
+        {
+
+         "verb": "Exit",
+          "target": "LOC4",
+          "condition": "" 
+         },
+        ],
       }
     }
   }
