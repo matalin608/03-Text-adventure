@@ -133,7 +133,7 @@
         "exits": [
           {
             "verb": "CLOSE",
-            "target": "LOC2",
+            "target": "LOC8",
             "condition": ""
           }
         ],
