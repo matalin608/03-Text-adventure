@@ -1,0 +1,4 @@
+This is a simple text adventure game that I created for my Game Technology class at Indiana University. 
+The game takes place in a small house. There are four rooms that you can travel between. You must enter the commands 
+that are listed in ALL CAPS, such as NORTH, READ, OPEN, and EAST. There are some "locations" which are actions that can
+be performed, but some of the "locations" are rooms in the house. Enjoy the game, and beware of the basement!
