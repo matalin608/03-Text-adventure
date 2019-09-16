@@ -39,6 +39,10 @@
       {
         "v": "W",
         "map": "WEST"
+      },
+      {
+        "v": "READ",
+        "map": "READ"
       }
     ],
     "rooms": {
