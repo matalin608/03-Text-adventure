@@ -43,6 +43,10 @@
       {
         "v": "READ",
         "map": "READ"
+      },
+      {
+        "v": "CLOSE",
+        "map": "CLOSE"
       }
     ],
     "rooms": {
