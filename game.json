@@ -60,7 +60,7 @@
     "rooms": {
       "START": {
         "name": "an unfamiliar room.",
-        "desc": "You are not sure how you got there. There is a large white door, but it is boarded up. There are doors to the NORTH and the SOUTH. the NORTH door is slightly open. Please enter a direction.",
+        "desc": "You are not sure how you got there. There is a large white door, but it is boarded up. There are doors to the NORTH and the SOUTH. Please enter a direction.",
         "exits": [
           {
             "verb": "NORTH",
@@ -206,7 +206,7 @@
       },
       "LOC9": {
         "name": "the Bedroom.",
-        "desc": "The drawer is mostly empty. You remember that there is another drawer in the living room. you may CLOSE the drawer.",
+        "desc": "The drawer is mostly empty. You know that there is another drawer in the living room. you may CLOSE the drawer.",
         "exits": [
           {
             "verb": "CLOSE",
@@ -273,7 +273,7 @@
       },
       "LOC15": {
         "name": "an unfamiliar room.",
-        "desc": "You are not sure how you got there. There is a large white door, but it is boarded up. There are doors to the NORTH and the SOUTH. the NORTH door is slightly open. Please enter a direction.",
+        "desc": "There is a large white door, but it is boarded up. The kitchen is to the NORTH. the living room is to the SOUTH.",
         "exits": [
           {
             "verb": "NORTH",
