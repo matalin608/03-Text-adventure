@@ -55,11 +55,6 @@
             "verb": "SOUTH",
             "target": "LOC3",
             "condition": ""
-          },
-          {
-            "verb": "WEST",
-            "target": "LOC2",
-            "condition": ""
           }
         ],
         "inventory": []
