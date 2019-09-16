@@ -47,6 +47,10 @@
       {
         "v": "CLOSE",
         "map": "CLOSE"
+      },
+      {
+        "v": "OPEN",
+        "map": "OPEN"
       }
     ],
     "rooms": {
