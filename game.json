@@ -241,7 +241,7 @@
         "inventory": []
       },
       "LOC12": {
-        "name": "in the yard.",
+        "name": "the yard.",
         "desc": "You can see a vehicle in the distance. There is a growl behind you! You should RUN!",
         "exits": [
           {
@@ -253,7 +253,7 @@
         "inventory": []
       },
       "LOC14": {
-        "name": "away from the house!",
+        "name": "the clear!",
         "desc": "You made it! You may QUIT the game.",
         "exits": [
         ],
