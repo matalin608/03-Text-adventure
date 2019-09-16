@@ -91,7 +91,7 @@
           },
           {
             "verb": "SOUTH",
-            "target": "START",
+            "target": "LOC15",
             "condition": ""
           },
           {
@@ -108,7 +108,7 @@
         "exits": [
           {
             "verb": "NORTH",
-            "target": "START",
+            "target": "LOC15",
             "condition": ""
           },
           {
