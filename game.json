@@ -193,7 +193,7 @@
           },
           {
             "verb": "SOUTH",
-            "target": "START",
+            "target": "LOC15",
             "condition": ""
           }
         ],
@@ -201,7 +201,7 @@
       },
       "LOC9": {
         "name": "the Bedroom.",
-        "desc": "The drawer is mostly empty. you may CLOSE the drawer.",
+        "desc": "The drawer is mostly empty. You remember that there is another drawer in the living room. you may CLOSE the drawer.",
         "exits": [
           {
             "verb": "CLOSE",
