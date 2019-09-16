@@ -77,7 +77,7 @@
       },
       "LOC2": {
         "name": "the Kitchen.",
-        "desc": "There is a letter on the table. There is a large window looking into the backyard, where there are lots of trees. There are doors to your EAST and WEST. you came from the SOUTH. you can READ the letter.",
+        "desc": "There is a letter on the table. There is a large window looking into the backyard, where there are lots of trees. There are doors to your EAST and WEST. you began in the SOUTH. you can READ the letter.",
         "exits": [
           {
             "verb": "EAST",
