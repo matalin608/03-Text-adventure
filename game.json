@@ -215,7 +215,7 @@
       },
       "LOC9": {
         "name": "the Bedroom.",
-        "desc": "The drawer is mostly empty. You know that there is another drawer in the living room. you may CLOSE the drawer.",
+        "desc": "The drawer is mostly empty. There is another drawer in the living room. you may CLOSE the drawer.",
         "exits": [
           {
             "verb": "CLOSE",
