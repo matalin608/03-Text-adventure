@@ -138,7 +138,7 @@
       },
       "LOC5": {
         "name": "the Kitchen.",
-        "desc": "The letter reads as follows: If you follow the path through the backyard, you will find a vehicle .5 miles away from the property. The key is hidden. Do not let Him find it. Beware of the basement. If He wakes up, you may not have time to escape. Good Luck. - you may CLOSE the letter.",
+        "desc": "The letter reads as follows: If you follow the path through the front yard, you will find a vehicle .5 miles away from the property. The key is hidden. Do not let Him find it. Beware of the basement. If He wakes up, you may not have time to escape. Good Luck. - you may CLOSE the letter.",
         "exits": [
           {
             "verb": "CLOSE",
