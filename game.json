@@ -51,6 +51,10 @@
       {
         "v": "OPEN",
         "map": "OPEN"
+      },
+      {
+        "v": "RUN",
+        "map": "RUN"
       }
     ],
     "rooms": {
@@ -213,7 +217,7 @@
         "exits": [
           {
             "verb": "CLOSE",
-            "target": "LOC12",
+            "target": "LOC11",
             "condition": ""
           }
         ],
