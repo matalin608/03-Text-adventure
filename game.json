@@ -101,9 +101,14 @@
         "inventory": []
       },
       "LOC5": {
-        "name": "Location 5",
-        "desc": "Here is the second location.",
+        "name": "the Kitchen.",
+        "desc": "The letter reads as follows: If you follow the path through the backyard, you will find a vehicle .5 miles away from the property. The key is hidden. Do not let Him find it. Beware of the basement. If He wakes up, you may not have time to escape. Good Luck. - you may CLOSE the letter.",
         "exits": [
+          {
+            "verb": "CLOSE",
+            "target": "LOC2",
+            "condition": ""
+          }
         ],
         "inventory": []
       },
