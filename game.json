@@ -43,8 +43,8 @@
     ],
     "rooms": {
       "START": {
-        "name": "An unfamiliar room",
-        "desc": "You don't know how you got there, but it's awfully dark. There is one door to the NORTH. There is another door to the SOUTH. (Please enter a direction).",
+        "name": "an unfamiliar room.",
+        "desc": "You are not sure how you got there. There is a large white door, but it is boarded up. There are doors to the NORTH and the SOUTH. Please enter a direction.",
         "exits": [
           {
             "verb": "NORTH",
@@ -53,48 +53,19 @@
           },
           {
             "verb": "SOUTH",
-            "target": "LOC3",
+            "target": "LOC32",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC4",
-            "condition": ""
-          },
-          {
-            "verb": "EAST",
             "target": "LOC2",
             "condition": ""
           }
         ],
         "inventory": []
       },
-      "LOC2": { 
-        "name": "Kitchen",
-        "desc": "There is a large window facing the backyard. You can see only trees. There is a letter on the table. You can READ the letter. There is a door to the EAST and a door to the WEST. you came from the SOUTH.",
-        "exits": [
-          {
-            "verb": "READ",
-            "target": "LOC5",
-            "condition": ""
-          },
-          {
-            "verb": "SOUTH",
-            "target": "LOC3",
-            "condition": ""
-          },
-        ],
-        "inventory": []
-      },
-      "LOC3": {
-        "name": "Bedroom",
-        "desc": "Here is the second location.",
-        "exits": [
-        ],
-        "inventory": []
-      },
-      "LOC4": {
-        "name": "Living Room",
+      "LOC2": {
+        "name": "Location 2",
         "desc": "Here is the second location.",
         "exits": [
         ],
