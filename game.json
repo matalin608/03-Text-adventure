@@ -171,6 +171,18 @@
 
         ],
         "inventory": []
+      },
+      "LOC9": {
+        "name": "the Bedroom.",
+        "desc": "The drawer is mostly empty. you may CLOSE the drawer.",
+        "exits": [
+          {
+            "verb": "CLOSE",
+            "target": "LOC4",
+            "condition": ""
+          }
+        ],
+        "inventory": []
       
       }
     }
