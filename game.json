@@ -103,8 +103,18 @@
       },
       "LOC4": {
         "name": "the Bedroom.",
-        "desc": "Here is the second location.",
+        "desc": "There is a bed on the far wall covered in with a dirty, white blanket. There is a desk and a bedside table. The desk is covered in scratch marks. The bedside table has a single drawer. You may OPEN the drawer. you came from the EAST.",
         "exits": [
+          {
+            "verb": "EAST",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "OPEN",
+            "target": "LOC9",
+            "condition": ""
+          }
         ],
         "inventory": []
       },
