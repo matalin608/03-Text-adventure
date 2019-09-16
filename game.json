@@ -128,11 +128,24 @@
         "inventory": []
       },
       "LOC7": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+        "name": "the Basement.",
+        "desc": "You hear a low growl from the bottom of the steps. You should CLOSE the door.",
+        "exits": [
+          {
+            "verb": "CLOSE",
+            "target": "LOC2",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC8": {
+        "name": "the Kitchen.",
+        "desc": "SCARY",
         "exits": [
         ],
         "inventory": []
+      
       }
     }
   }
