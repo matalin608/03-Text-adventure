@@ -213,12 +213,42 @@
         "exits": [
           {
             "verb": "CLOSE",
-            "target": "LOC3",
+            "target": "LOC12",
             "condition": ""
           }
         ],
         "inventory": []
-      
+      },
+      "LOC11": {
+        "name": "the Living Room.",
+        "desc": "You should exit through the white door to the EAST, which leads outside. Hurry, before something finds you.",
+        "exits": [
+          {
+            "verb": "EAST",
+            "target": "LOC12",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC12": {
+        "name": "in the yard.",
+        "desc": "You can see a vehicle in the distance. There is a growl behind you! You should RUN!",
+        "exits": [
+          {
+            "verb": "RUN",
+            "target": "LOC14",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC14": {
+        "name": "away from the house!",
+        "desc": "You made it! You may QUIT the game.",
+        "exits": [
+        ],
+        "inventory": []
       }
     }
   }
