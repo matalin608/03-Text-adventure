@@ -141,8 +141,24 @@
       },
       "LOC8": {
         "name": "the Kitchen.",
-        "desc": "SCARY",
+        "desc": "You may have awaken something. You should be careful, now. The basement door is to the EAST. there is another door to the WEST. you began in the SOUTH.",
         "exits": [
+          {
+            "verb": "EAST",
+            "target": "LOC7",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC4",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          }
+
         ],
         "inventory": []
       
