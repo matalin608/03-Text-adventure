@@ -69,7 +69,7 @@
           },
           {
             "verb": "SOUTH",
-            "target": "LOC3",
+            "target": "LOC13",
             "condition": ""
           }
         ],
@@ -251,6 +251,35 @@
         "name": "away from the house!",
         "desc": "You made it! You may QUIT the game.",
         "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC13": {
+        "name": "the Living Room.",
+        "desc": "You can see that there are scratch marks all over the furniture. There is a small table with a single drawer, a broken TV set, and a chair without cushions. There are no obvious clues in this room. you came from the NORTH.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC15",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC15": {
+        "name": "an unfamiliar room.",
+        "desc": "You are not sure how you got there. There is a large white door, but it is boarded up. There are doors to the NORTH and the SOUTH. the NORTH door is slightly open. Please enter a direction.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "LOC3",
+            "condition": ""
+          }
         ],
         "inventory": []
       }
