@@ -100,8 +100,18 @@
       },
       "LOC3": {
         "name": "the Living Room.",
-        "desc": "Here is the second location.",
+        "desc": "You can see that there are scratch marks all over the furniture. There is a small table with a single drawer, a broken TV set, and a chair without cushions. You may OPEN the drawer. you came from the NORTH.",
         "exits": [
+          {
+            "verb": "NORHT",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "OPEN",
+            "target": "LOC10",
+            "condition": ""
+          },
         ],
         "inventory": []
       },
@@ -135,9 +145,19 @@
         "inventory": []
       },
       "LOC6": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+        "name": "The Bedroom.",
+        "desc": "There is a bed on the far wall covered with a dirty, white blanket. There is a desk and a bedside table. The desk is covered in scratch marks. The bedside table has a single drawer. You hear a growl. You need to find the key, soon. you may OPEN the drawer. you came from the EAST.",
         "exits": [
+          {
+            "verb": "EAST",
+            "target": "LOC2",
+            "condition": ""
+          },
+          {
+            "verb": "OPEN",
+            "target": "LOC9",
+            "condition": ""
+          }
         ],
         "inventory": []
       },
@@ -164,7 +184,7 @@
           },
           {
             "verb": "WEST",
-            "target": "LOC4",
+            "target": "LOC6",
             "condition": ""
           },
           {
@@ -182,7 +202,19 @@
         "exits": [
           {
             "verb": "CLOSE",
-            "target": "LOC4",
+            "target": "LOC6",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC10": {
+        "name": "the Living Room.",
+        "desc": "You found a key! You decide to take the key and find your escape route. you may CLOSE the drawer.",
+        "exits": [
+          {
+            "verb": "CLOSE",
+            "target": "LOC3",
             "condition": ""
           }
         ],
