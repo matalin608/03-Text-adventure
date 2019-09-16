@@ -60,21 +60,41 @@
         "inventory": []
       },
       "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+        "name": "the Kitchen.",
+        "desc": "There is a letter on the table. There is a large window looking into the backyard, where there are lots of trees. There are doors to your EAST and WEST. you came from the SOUTH. you can READ the letter.",
         "exits": [
+          {
+            "verb": "EAST",
+            "target": "LOC7",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "LOC4",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "READ",
+            "target": "LOC5",
+            "condition": ""
+          }
         ],
         "inventory": []
       },
       "LOC3": {
-        "name": "Location 3",
+        "name": "the Living Room.",
         "desc": "Here is the second location.",
         "exits": [
         ],
         "inventory": []
       },
       "LOC4": {
-        "name": "Location 4",
+        "name": "the Bedroom.",
         "desc": "Here is the second location.",
         "exits": [
         ],
