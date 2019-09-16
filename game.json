@@ -111,7 +111,7 @@
             "verb": "OPEN",
             "target": "LOC10",
             "condition": ""
-          },
+          }
         ],
         "inventory": []
       },
@@ -192,7 +192,6 @@
             "target": "START",
             "condition": ""
           }
-
         ],
         "inventory": []
       },
