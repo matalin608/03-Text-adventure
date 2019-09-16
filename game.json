@@ -70,6 +70,27 @@
         "exits": [
         ],
         "inventory": []
+      },
+      "LOC3": {
+        "name": "Location 3",
+        "desc": "Here is the second location.",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC4": {
+        "name": "Location 4",
+        "desc": "Here is the second location.",
+        "exits": [
+        ],
+        "inventory": []
+      },
+      "LOC5": {
+        "name": "Location 5",
+        "desc": "Here is the second location.",
+        "exits": [
+        ],
+        "inventory": []
       }
     }
   }
